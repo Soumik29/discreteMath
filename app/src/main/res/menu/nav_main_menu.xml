@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/AboutUs"
+            android:icon="@drawable/ic_baseline_about_us_24"
+            android:title="About the App"/>
+
+        <item android:id="@+id/Contacts"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="Contacts"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/Share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share"/>
+                <item android:id="@+id/Feedback"
+                    android:icon="@drawable/ic_baseline_send_24"
+                    android:title="Send Feedback"/>
+            </group>
+        </menu>
+    </item>
+</menu>

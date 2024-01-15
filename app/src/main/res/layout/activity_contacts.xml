@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contacts"
+    android:background="@drawable/rocks">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rao Li"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/Field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department of Computer Science, Engineering, and Mathematics"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/Name" />
+
+    <TextView
+        android:id="@+id/Company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University of South Carolina Aiken"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/Field"/>
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aiken, SC 29801, USA"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/Company"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="raol@usca.edu"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/Address"/>
+
+    <TextView
+        android:id="@+id/Website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://sciences.usca.edu/math/~mathdept/rli/"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/Email"/>
+
+</RelativeLayout>

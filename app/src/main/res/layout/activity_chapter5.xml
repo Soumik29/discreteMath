@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chapter5"
+    android:background="#3D3B40">
+
+    <TableLayout
+        android:id="@+id/tableLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:shrinkColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TableRow
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/chap51_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:text="Divisibility" />
+
+            <Button
+                android:id="@+id/chap52_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:text="Primes" />
+        </TableRow>
+        <TableRow
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/chap53_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:text="GCD and LCM"/>
+
+            <Button
+                android:id="@+id/chap54_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:text="Algorithm for GCD"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.github.barteksc.pdfviewer.PDFView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

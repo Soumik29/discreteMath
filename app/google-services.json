@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "824143826400",
+    "project_id": "discretemathematics-411ea",
+    "storage_bucket": "discretemathematics-411ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824143826400:android:c664613bc1c5db2a8a2f85",
+        "android_client_info": {
+          "package_name": "com.example.mathprojectraoli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824143826400-0u45kf7kbpbdfbnopk51suf7a3pnb83g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQtVp65KCuF56R3Mgun8SEc4Jo0rxYR2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824143826400-0u45kf7kbpbdfbnopk51suf7a3pnb83g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
