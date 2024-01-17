@@ -72,7 +72,7 @@
             <TableRow>
 
                 <Button
-                    android:id="@+id/btn6"
+                    android:id="@+id/btn5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
@@ -82,7 +82,7 @@
                     android:textColor="#2B2A4C" />
 
                 <Button
-                    android:id="@+id/btn8"
+                    android:id="@+id/btn6"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
@@ -92,12 +92,10 @@
                     android:textColor="#2B2A4C" />
             </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <TableRow>
 
                 <Button
-                    android:id="@+id/btn5"
+                    android:id="@+id/btn7"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
@@ -107,7 +105,7 @@
                     android:textColor="#2B2A4C" />
 
                 <Button
-                    android:id="@+id/btn7"
+                    android:id="@+id/btn8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"

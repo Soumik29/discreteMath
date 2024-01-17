@@ -27,7 +27,7 @@
                 android:layout_height="match_parent"
                 android:layout_column="0"
                 android:layout_weight="1"
-                android:text="Pie" />
+                android:text="Pie 1" />
 
             <Button
                 android:id="@+id/chap32_btn"
@@ -35,7 +35,7 @@
                 android:layout_height="match_parent"
                 android:layout_column="1"
                 android:layout_weight="1"
-                android:text="Product Rule" />
+                android:text="Pie 2" />
         </TableRow>
 
         <TableRow
@@ -47,7 +47,7 @@
                 android:layout_height="match_parent"
                 android:layout_column="0"
                 android:layout_weight="1"
-                android:text="Permutation" />
+                android:text="Product Rule 1" />
 
             <Button
                 android:id="@+id/chap34_btn"
@@ -55,7 +55,7 @@
                 android:layout_height="match_parent"
                 android:layout_column="1"
                 android:layout_weight="1"
-                android:text="Combination" />
+                android:text="Product Rule 2" />
         </TableRow>
     </TableLayout>
 
