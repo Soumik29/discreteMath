@@ -44,7 +44,7 @@
                 android:id="@+id/chap83_btn"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:text="Equivalence Relations/Partitions"
+                android:text="Equivalence Relations and Partitions"
                 android:layout_weight="1"
                 android:layout_column="0"/>
 
