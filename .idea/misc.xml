@@ -11,7 +11,7 @@
         <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
-        <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/layout/activity_about_us.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/layout/activity_about_us.xml" value="0.12" />
         <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/layout/activity_chapter1.xml" value="0.152" />
         <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/layout/activity_chapter10.xml" value="0.18449197860962566" />
         <entry key="..\:/Users/SOUMIK/AndroidStudioProjects/MathProjectRaoLi/app/src/main/res/layout/activity_chapter11.xml" value="0.22826086956521738" />
@@ -52,5 +52,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12" />
+      </ProjectState>
+    </option>
   </component>
 </project>
