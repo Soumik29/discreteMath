@@ -36,8 +36,6 @@ public class aboutUs extends AppCompatActivity {
                 )
                 .addGroup("CONNECT WITH US!")
                 .addEmail("RaoL@usca.edu")
-                .addWebsite("https://www.usca.edu/about/directories/person/rao-li")
-                .addPlayStore("com.example.mathprojectraoli")
                 .create();
         setContentView(aboutPage);
     }

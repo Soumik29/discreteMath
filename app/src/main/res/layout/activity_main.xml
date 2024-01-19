@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:openDrawer="start"
-    android:background="@drawable/rocks"
     android:id="@+id/drawer_layout">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/usc_aiken_image"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -65,7 +71,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:background="#F8FAE5"
-                    android:text="Counting Method 2"
+                    android:text="Counting Methods 2"
                     android:textColor="#2B2A4C" />
             </TableRow>
 
@@ -78,7 +84,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:background="#F8FAE5"
-                    android:text="Number Theory"
+                    android:text="Intro to Number Theory"
                     android:textColor="#2B2A4C" />
 
                 <Button
@@ -147,7 +153,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:background="#F8FAE5"
-                    android:text="Graph and Trees"
+                    android:text="Graphs and Trees"
                     android:textColor="#2B2A4C" />
 
                 <Button
