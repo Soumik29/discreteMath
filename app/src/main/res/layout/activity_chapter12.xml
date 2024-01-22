@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Chapter12">
+    tools:context=".Chapter12"
+    android:background="#3D3B40">
 
     <TableLayout
         android:id="@+id/tableLayout12"
