@@ -8,7 +8,6 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import mehdi.sakout.aboutpage.AboutPage;
-import mehdi.sakout.aboutpage.Element;
 
 
 public class aboutUs extends AppCompatActivity {
@@ -32,7 +31,7 @@ public class aboutUs extends AppCompatActivity {
                         "Science at the University of South Carolina Aiken. " +
                         "It started with an assignment of CSCI 340 Mobile Application " +
                         "Development at the University of South Carolina Aiken " +
-                        "and evolved into current form."
+                        "and evolved into the current form."
                 )
                 .addGroup("CONNECT WITH US!")
                 .addEmail("RaoL@usca.edu")

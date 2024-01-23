@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/usc_aiken_image"/>
+        android:src="@drawable/pexels_michael"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

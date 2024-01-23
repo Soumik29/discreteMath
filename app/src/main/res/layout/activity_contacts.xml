@@ -5,16 +5,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".contacts"
-    android:background="@drawable/usc_aiken_image">
+    tools:context=".contacts">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pexels_michael"/>
 
     <TextView
         android:id="@+id/Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rao Li and Soumik Mitra"
-        android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
@@ -24,11 +29,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Department of Computer Science, Engineering, and Mathematics"
-        android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:layout_below="@id/Name" />
 
     <TextView
@@ -36,11 +40,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="University of South Carolina Aiken"
-        android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:layout_below="@id/Field"/>
 
     <TextView
@@ -48,11 +51,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aiken, SC 29801"
-        android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:layout_below="@id/Company"/>
 
     <TextView
@@ -60,26 +62,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="USA"
-        android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:layout_below="@id/Address"/>
 
     <TextView
         android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/Country"
         android:autoLink="email"
+        android:minHeight="48dp"
         android:text="raol@usca.edu"
-        android:textColor="@color/white"
-        android:textSize="15dp"
         android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
         android:textStyle="italic"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_below="@id/Country"/>
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/Website"
@@ -88,25 +89,24 @@
         android:autoLink="web"
         android:text="https://sciences.usca.edu/math/~mathdept/rli/"
         android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textSize="19dp"
         android:textAlignment="center"
         android:textStyle="italic"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:layout_below="@id/Email"/>
 
     <TextView
         android:id="@+id/combinedEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:autoLink="email"
-        android:text="Li.and.Mitra.Mobile.Tech@gmail.com"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        android:textAlignment="center"
-        android:textStyle="italic"
+        android:layout_below="@id/Website"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_below="@id/Website"/>
+        android:autoLink="email"
+        android:minHeight="48dp"
+        android:text="Li.and.Mitra.Mobile.Tech@gmail.com"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
 
 </RelativeLayout>
