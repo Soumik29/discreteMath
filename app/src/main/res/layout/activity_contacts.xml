@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,26 +8,40 @@
     tools:context=".contacts">
 
     <ImageView
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/pexels_michael"/>
+        android:scaleType="center"
+        android:src="@drawable/uscpenlandpic"/>
 
     <TextView
         android:id="@+id/Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-500dp"
+        android:padding="20dp"
         android:text="Rao Li and Soumik Mitra"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20dp"
-        android:textAlignment="center"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Field"
+        app:layout_constraintTop_toBottomOf="@id/Name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
         android:text="Department of Computer Science, Engineering, and Mathematics"
         android:textColor="@color/black"
         android:textSize="20dp"
@@ -37,10 +51,13 @@
 
     <TextView
         android:id="@+id/Company"
+        app:layout_constraintTop_toBottomOf="@id/Field"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="University of South Carolina Aiken"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
@@ -48,10 +65,14 @@
 
     <TextView
         android:id="@+id/Address"
+        app:layout_constraintTop_toBottomOf="@id/Company"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
         android:text="Aiken, SC 29801"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
@@ -59,10 +80,14 @@
 
     <TextView
         android:id="@+id/Country"
+        app:layout_constraintTop_toBottomOf="@id/Address"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
         android:text="USA"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
@@ -72,33 +97,48 @@
         android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
         android:layout_below="@id/Country"
+        android:layout_centerHorizontal="true"
         android:autoLink="email"
-        android:minHeight="48dp"
+        android:minHeight="10dp"
         android:text="raol@usca.edu"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColorLink="#FFF8E3"
         android:textSize="20dp"
         android:textStyle="italic"
-        android:layout_centerHorizontal="true"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Country"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/Website"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/Email"
+        android:layout_centerHorizontal="true"
+        android:textColorLink="#FFF8E3"
         android:autoLink="web"
         android:text="https://sciences.usca.edu/math/~mathdept/rli/"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="19dp"
-        android:textAlignment="center"
         android:textStyle="italic"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/Email"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Email"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/combinedEmail"
+        app:layout_constraintTop_toBottomOf="@id/Website"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
         android:layout_below="@id/Website"
         android:layout_centerHorizontal="true"
         android:autoLink="email"
@@ -109,4 +149,4 @@
         android:textSize="20dp"
         android:textStyle="italic" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
