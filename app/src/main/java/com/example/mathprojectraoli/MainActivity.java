@@ -9,6 +9,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -113,10 +114,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.Share:
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
-                String body = "Your body here";
-                String sub = "Your Subject";
-                myIntent.putExtra(Intent.EXTRA_SUBJECT, sub);
-                myIntent.putExtra(Intent.EXTRA_TEXT, body);
+                String shareLink = "https://play.google.com/store/apps/details?id=com.dismathinyourhands.mathprojectraoli&pcampaignid=web_share";
+                String shareTitle = "Discrete Math in Your Hands";
+                myIntent.putExtra(Intent.EXTRA_SUBJECT, shareLink);
+                myIntent.putExtra(Intent.EXTRA_TEXT, shareTitle);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));
                 break;
             case R.id.AboutUs:
@@ -126,6 +127,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.Contacts:
                 Intent contactUs = new Intent(MainActivity.this, contacts.class);
                 startActivity(contactUs);
+                break;
+            case R.id.Feedback:
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
+                String uriText = "mailto:" + Uri.encode("RaoL@usca.edu") + "?subject=" + Uri.encode("Give us some feedback: ") + " body" + Uri.encode("");
+                Uri uri = Uri.parse(uriText);
+                intent.setData(uri);
+                startActivity(Intent.createChooser(intent, "send email"));
                 break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);
