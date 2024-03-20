@@ -30,7 +30,11 @@ public class Chapter2 extends AppCompatActivity {
         ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
         actionBar.setBackgroundDrawable(colorDrawable);
 
-        Button[] btns = {findViewById(R.id.chap21_btn), findViewById(R.id.chap22_btn), findViewById(R.id.chap23_btn), findViewById(R.id.chap24_btn)};
+        Button[] btns = {
+                findViewById(R.id.chap21_btn),
+                findViewById(R.id.chap22_btn),
+                findViewById(R.id.chap23_btn),
+                findViewById(R.id.chap24_btn)};
         String[] pdfNames = {
                 "02_set_theory_01_definition.pdf",
                 "02_set_theory_02_subset_power_set.pdf",

@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:background="@drawable/uscaikenimage"/>
+        android:background="@drawable/uscaikenimage"
+        android:contentDescription="TODO" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -41,7 +42,8 @@
                     android:layout_weight="1"
                     android:background="#F8FAE5"
                     android:text="Logic"
-                    android:textColor="#111111" />
+                    android:textColor="#111111"
+                    style="?android:attr/buttonBarButtonStyle" />
 
                 <Button
                     android:id="@+id/btn2"
@@ -171,10 +173,10 @@
 
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:adSize="BANNER"
             android:background="@color/black"
+            app:adSize="SMART_BANNER"
             app:adUnitId="ca-app-pub-5886553399470613/3766483794"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

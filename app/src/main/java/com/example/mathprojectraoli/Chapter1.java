@@ -23,7 +23,12 @@ public class Chapter1 extends AppCompatActivity {
         ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
         actionBar.setBackgroundDrawable(colorDrawable);
 
-        Button[] btns = {findViewById(R.id.chap11_btn), findViewById(R.id.chap12_btn), findViewById(R.id.chap13_btn), findViewById(R.id.chap14_btn)};
+        Button[] btns = {
+                findViewById(R.id.chap11_btn),
+                findViewById(R.id.chap12_btn),
+                findViewById(R.id.chap13_btn),
+                findViewById(R.id.chap14_btn)
+        };
         String[] pdfNames = {
                 "01_logic_01_definition.pdf",
                 "01_logic_02_truth_table.pdf",
