@@ -17,8 +17,6 @@ import java.util.Locale;
 
 public class Chapter2 extends AppCompatActivity {
 
-    private TextToSpeech tts;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

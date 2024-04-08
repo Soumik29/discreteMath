@@ -42,8 +42,7 @@
                     android:layout_weight="1"
                     android:background="#F8FAE5"
                     android:text="Logic"
-                    android:textColor="#111111"
-                    style="?android:attr/buttonBarButtonStyle" />
+                    android:textColor="#111111" />
 
                 <Button
                     android:id="@+id/btn2"
