@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Chapter5"
+    tools:context="com.example.mathprojectraoli.Chapter5"
     android:background="#3D3B40">
 
     <TableLayout

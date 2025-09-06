@@ -4,22 +4,21 @@ buildscript {
         google()
         mavenCentral()
     }
-}
-
-plugins {
-    id 'com.android.application' version '7.2.2' apply false
-    id 'com.android.library' version '7.2.2' apply false
-}
-
-allprojects {
-    repositories {
-//        google()
-//        mavenCentral()
+    dependencies {
+        // This is the Android Gradle Plugin dependency. Its version might be different for you.
+        // For example: classpath 'com.android.tools.build:gradle:8.1.2'
+        classpath 'com.android.tools.build:gradle:8.12.2' // Keeping your existing AGP version
+        classpath 'com.google.gms:google-services:4.4.1'
     }
 }
 
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
+plugins {
+    id 'com.android.application' version '8.12.2' apply false
+    id 'com.android.library' version '8.12.2' apply false
 }
 
+// The allprojects block for general repositories is handled by settings.gradle -> dependencyResolutionManagement
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

@@ -1,5 +1,5 @@
 package com.example.mathprojectraoli;
-
+import com.dismathinyourhands.mathprojectraoli.R;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,6 +21,7 @@ public class Chapter1 extends AppCompatActivity {
         actionBar = getSupportActionBar();
 
         ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
+        assert actionBar != null;
         actionBar.setBackgroundDrawable(colorDrawable);
 
         Button[] btns = {

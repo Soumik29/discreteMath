@@ -5,13 +5,15 @@ pluginManagement {
         mavenCentral()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        gradlePluginPortal()
+        maven { url 'https://jitpack.io' } // Added JitPack repository
     }
 }
+
 rootProject.name = "MathProjectRaoLi"
 include ':app'

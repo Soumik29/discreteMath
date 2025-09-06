@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#3D3B40"
-    tools:context=".Chapter2">
+    tools:context="com.example.mathprojectraoli.Chapter2">
 
 
     <TableLayout

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.mathprojectraoli">
+    package="com.dismathinyourhands.mathprojectraoli">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -20,63 +20,63 @@
         tools:replace="android:label"
         tools:targetApi="31">
         <activity
-            android:name=".contacts"
+            android:name="com.example.mathprojectraoli.contacts"
             android:exported="false"
             android:label="@string/Contacts"/>
         <activity
-            android:name=".aboutUs"
+            android:name="com.example.mathprojectraoli.aboutUs"
             android:exported="false"
             android:label="@string/aboutUs"/>
         <activity
-            android:name=".Chapter12"
+            android:name="com.example.mathprojectraoli.Chapter12"
             android:exported="false"
             android:label="@string/chap12" />
         <activity
-            android:name=".Chapter11"
+            android:name="com.example.mathprojectraoli.Chapter11"
             android:exported="false"
             android:label="@string/chap11" />
         <activity
-            android:name=".Chapter10"
+            android:name="com.example.mathprojectraoli.Chapter10"
             android:exported="false"
             android:label="@string/chap10" />
         <activity
-            android:name=".Chapter9"
+            android:name="com.example.mathprojectraoli.Chapter9"
             android:exported="false"
             android:label="@string/chap9" />
         <activity
-            android:name=".Chapter8"
+            android:name="com.example.mathprojectraoli.Chapter8"
             android:exported="false"
             android:label="@string/chap8" />
         <activity
-            android:name=".Chapter7"
+            android:name="com.example.mathprojectraoli.Chapter7"
             android:exported="false"
             android:label="@string/chap7" />
         <activity
-            android:name=".Chapter6"
+            android:name="com.example.mathprojectraoli.Chapter6"
             android:exported="false"
             android:label="@string/chap6" />
         <activity
-            android:name=".Chapter5"
+            android:name="com.example.mathprojectraoli.Chapter5"
             android:exported="false"
             android:label="@string/chap5" />
         <activity
-            android:name=".Chapter4"
+            android:name="com.example.mathprojectraoli.Chapter4"
             android:exported="false"
             android:label="@string/chap4" />
         <activity
-            android:name=".Chapter3"
+            android:name="com.example.mathprojectraoli.Chapter3"
             android:exported="false"
             android:label="@string/chap3" />
         <activity
-            android:name=".Chapter2"
+            android:name="com.example.mathprojectraoli.Chapter2"
             android:exported="false"
             android:label="@string/chap2" />
         <activity
-            android:name=".Chapter1"
+            android:name="com.example.mathprojectraoli.Chapter1"
             android:exported="false"
             android:label="@string/chap1" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.mathprojectraoli.MainActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
