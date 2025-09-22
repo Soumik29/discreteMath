@@ -7,14 +7,14 @@ buildscript {
     dependencies {
         // This is the Android Gradle Plugin dependency. Its version might be different for you.
         // For example: classpath 'com.android.tools.build:gradle:8.1.2'
-        classpath 'com.android.tools.build:gradle:8.12.2' // Keeping your existing AGP version
+        classpath 'com.android.tools.build:gradle:8.12.3' // Keeping your existing AGP version
         classpath 'com.google.gms:google-services:4.4.1'
     }
 }
 
 plugins {
-    id 'com.android.application' version '8.12.2' apply false
-    id 'com.android.library' version '8.12.2' apply false
+    id 'com.android.application' version '8.1.2' apply false
+    id 'com.android.library' version '8.1.2' apply false
 }
 
 // The allprojects block for general repositories is handled by settings.gradle -> dependencyResolutionManagement

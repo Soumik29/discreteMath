@@ -1,6 +1,5 @@
 plugins {
     id 'com.android.application'
-    id 'com.google.gms.google-services'
 }
 
 android {
@@ -11,8 +10,8 @@ android {
         applicationId "com.dismathinyourhands.mathprojectraoli"
         minSdk 21
         targetSdk 35
-        versionCode 3
-        versionName "1.2"
+        versionCode 7
+        versionName "1.24"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -21,6 +20,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
     compileOptions {
@@ -40,8 +40,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.7.4' 
     implementation 'androidx.navigation:navigation-ui:2.7.4' 
     implementation 'com.google.android.gms:play-services-ads:22.6.0' 
-    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.9' 
-    implementation 'com.github.medyo:android-about-page:2.0.0' 
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.9'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'io.github.medyo:android-about-page:2.0.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
