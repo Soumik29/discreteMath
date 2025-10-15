@@ -10,7 +10,7 @@ android {
         applicationId "com.dismathinyourhands.mathprojectraoli"
         minSdk 21
         targetSdk 35
-        versionCode 7
+        versionCode 8
         versionName "1.24"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -29,6 +29,12 @@ android {
     }
     buildFeatures {
         viewBinding true
+    }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
     }
 }
 
